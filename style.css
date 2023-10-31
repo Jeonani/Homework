@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #10202b;
+    }
+    .tabs input {
+visibility: hidden;
+display: none;
+    }
+    .buttons {
+position: relative;
+display: flex;
+gap: 80px;
+padding: 30px 40px;
+border-bottom: 1px solid rgba(255,255,255,0.2);
+background: #182d3c;
+overflow: hidden;
+border-radius: 20px;
+}
+.buttons label{
+width: 20%;
+font-size: 1.75em;
+-webkit-text-stroke: 1px #fff;
+color: transparent;
+opacity: 0.3;
+cursor: pointer;
+}
